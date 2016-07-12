@@ -1,0 +1,25 @@
+Lesson 1 Reflection:
+
+1. Being able to easily see diffrences between two files could be useful because it could help isolate typos, changes, or other problems.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It could save you the time of tracking down old versions that worked before changes were made. It can also make it easy to go back to a previous version if you changed you mind about the direction of a project.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: all changes are meaningful, changes come with descriptions
+cons: it takes time and mental effort to commit changes, user might forget
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Most text-based documents are independent - they don't reference other files. Even if they do, or if there are connections between files, they will still work properly if there are errors there.
+With code, it is common for one file to reference another. So if you go back to an old version of one that doesn't have the proper old version of another, it might not be very usable.
+
+How can you use the commands git log and git diff to view the history of files?
+git log shows all the previous commits that have been made to the repository
+git diff shows the specific changes between any two commits
+
+How might using version control make you more confident to make changes that could break something?
+It means that if you do break something, you can easily go back to the previous, functional version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to be able to access and edit my github files through the terminal and within programs I write.
+
